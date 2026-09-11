@@ -4,29 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial
 scale=1.0">
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ 
-site.title }}</title>
-    <link rel="stylesheet" href="{{ site.baseurl 
-}}/assets/css/style.css">
+    <title>pg-blog</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
     <!-- ===== 顶部横幅 ===== -->
     <div class="banner">
-        <h1>{{ site.title }}</h1>
-        {% if site.description %}
-            <p>{{ site.description }}</p>
-        {% endif %}
+        <h1>WBY-blog</h1>
+        
+            <p>WBY的个⼈⽹站</p>
+        
     </div>
     <!-- ===== ⽂章列表（含⽇期） ===== -->
     <div class="post-list">
-        {% for post in site.posts %}
+        
             <div class="post-item">
-                <a href="{{ post.url | prepend: site.baseurl }}">
-{{ post.title }}</a>
-                <span class="post-meta">{{ post.date | date: "%B 
-%-d, %Y" }}</span>
+                <a href="/2026/09/11/.html">
+Task 01</a>
+                <span class="post-meta">September 
+9, 2026</span>
             </div>
-        {% endfor %}
+        
     </div>
 </body>
 </html>
