@@ -1,7 +1,3 @@
 ---
-layout: post
-title: "我的第⼀篇博客"
-date: 2026-09-11
+layout: default
 ---
-
-<span style="background-color: black; color: red;font-size:30px;">**I'm here, ready for the Cybersecurity world**</span>
